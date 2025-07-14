@@ -5,7 +5,7 @@ from selene import browser
 def browser_open():
     browser.config.window_width = 1200
     browser.config.window_height = 800
-    browser.open_url("https://ya.ru/")
+    browser.open('https://duckduckgo.com')
     yield
     browser.quit()
 
